@@ -1,11 +1,11 @@
-// ###1
+// // ###1
 function reverseString(str){
          return str.split('').reverse().join('')
 }
 
 console.log(reverseString('mahadyhasan rumi'))
 
-// ###2
+// // ###2
 
 function countVowels(str) {
   let count = 0;
@@ -23,7 +23,7 @@ function countVowels(str) {
 console.log(countVowels("programmiing"));
 
 
-// ###3
+// // ###3
 
 
 function isPalindrome(str) {
@@ -40,7 +40,7 @@ console.log(isPalindrome("dad"));
 console.log(isPalindrome("munmun")); 
 
 
-// ###4
+// // ###4
 
 function findMax(arr) {
   let max = arr[0];
@@ -57,7 +57,7 @@ function findMax(arr) {
 console.log(findMax([500, 1,255, 91,4, 3])); 
 
 
-// 5
+// // 5
 
 function removeDuplicates(arr) {
   let unique = [];
@@ -74,7 +74,7 @@ function removeDuplicates(arr) {
 console.log(removeDuplicates([1, 2, 2, 3, 4,44,4,4, 4]));
 
 
-// 6
+// // 6
 
 
 function sumArray(arr) {
@@ -90,7 +90,7 @@ function sumArray(arr) {
 console.log(sumArray([1, 2, 3, 4,10])); 
 
 
-// 7
+// // 7
 
 
 function findEvenNumbers(arr) {
@@ -107,7 +107,7 @@ function findEvenNumbers(arr) {
 console.log(findEvenNumbers([1, 2, 3, 4, 5, 6]));
 
 
-// 8
+// // 8
 
 function capitalizeWords(str) {
   let words = str.split(" ");
@@ -126,7 +126,7 @@ function capitalizeWords(str) {
 console.log(capitalizeWords("hello world this is mahady hasan rumi"));
 
 
-// 9
+// // 9
 
 
 function factorial(num) {
@@ -139,10 +139,10 @@ function factorial(num) {
 }
 
 
-console.log(factorial(10)); // 120
+console.log(factorial(10)); 
 
 
-// 10
+// // 10
 
 function pingPong() {
   for (let i = 1; i <= 20; i++) {
@@ -158,13 +158,7 @@ function pingPong() {
   }
 }
 
-
 pingPong();
-
-
-
-
-
 
 
 
